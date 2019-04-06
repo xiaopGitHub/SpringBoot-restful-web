@@ -1,5 +1,6 @@
 package com.xp.component;
 
+import org.springframework.context.annotation.Bean;
 import org.springframework.util.StringUtils;
 import org.springframework.web.servlet.LocaleResolver;
 

@@ -20,7 +20,7 @@ public class LoginInterceptor implements HandlerInterceptor {
                              Object handler) throws Exception{
         Object username =request.getSession().getAttribute("username");
         if(username == null){
-            //未登录
+            //未登录,转发回登陆页面
             request.setAttribute("msg","请先登录" );
             request.getRequestDispatcher("/login.html").forward(request,response );
             return false;

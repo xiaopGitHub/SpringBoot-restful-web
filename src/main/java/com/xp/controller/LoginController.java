@@ -26,7 +26,7 @@ public class LoginController {
             //防止表单重复提交,可以重定向到页面,自定义的视图解析路径
             return "redirect:/success.html";
         }else{
-            map.put("msg","用户名或密码错误" );
+//            map.put("msg","用户名或密码错误" );
             return "redirect:/login.html";
         }
     }
