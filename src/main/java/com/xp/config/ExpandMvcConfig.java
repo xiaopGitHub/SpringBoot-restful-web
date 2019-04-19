@@ -46,7 +46,7 @@ public class ExpandMvcConfig  implements WebMvcConfigurer {
 
     /**
      * 注册自定义拦截器
-     * springboot已经做好了静态资源映射,拦截器不用来处理静态资源
+     * 
      * */
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
